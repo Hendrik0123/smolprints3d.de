@@ -10,27 +10,89 @@ body {
               background-color: orange;
                 color: white;
                   padding: 2rem;
-                    text-align: center;
-                    }
+                  text-align: center;
+                }
 
-                    main {
-                      padding: 1rem 2rem;
-                      }
+                main {
+                  padding: 1rem 2rem;
+                }
 
-                      ul {
-                        list-style: none;
-                          padding: 0;
-                          }
+                ul {
+                  list-style: none;
+                  padding: 0;
+                }
 
-                          li::before {
-                            content: "🧩";
-                              margin-right: 0.5rem;
-                              }
+                li::before {
+                  content: "🧩";
+                  margin-right: 0.5rem;
+                }
 
-                              footer {
-                                background-color: #eee;
-                                  padding: 1rem;
-                                    text-align: center;
-                                      font-size: 0.9rem;
-                                      }
+                footer {
+                  background-color: #eee;
+                  padding: 1rem;
+                  text-align: center;
+                  font-size: 0.9rem;
+                }
+                                      
+                  /* Grundlayout */
+                  body {
+                    margin: 0;
+                    font-family: sans-serif;
+                  }
+
+                  header {
+                    background-color: orange;
+                    color: white;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 1rem 2rem;
+                    position: relative;
+                  }
+
+                  .menu-icon {
+                    font-size: 2rem;
+                    cursor: pointer;
+                    user-select: none;
+                  }
+
+                  /* Sidebar-Navigation */
+                  #sidebar {
+                    position: fixed;
+                    top: 0;
+                    right: -250px; /* versteckt */
+                    width: 250px;
+                    height: 100%;
+                    background-color: #333;
+                    color: white;
+                    transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1); /* sanftere Kurve */
+                    padding-top: 4rem;
+                    z-index: 1000;
+                    box-shadow: 2px 0 8px rgba(0,0,0,0.15); /* leichter Schatten für Tiefe */
+                  }
+
+                  #sidebar.open {
+                    right: 0; /* eingeblendet */
+                  }
+
+                  #sidebar ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                  }
+
+                  #sidebar li {
+                    padding: 1rem;
+                    border-bottom: 1px solid #444;
+                  }
+
+                  #sidebar a {
+                    color: white;
+                    text-decoration: none;
+                    display: block;
+                  }
+
+/* Main content */
+main {
+  padding: 2rem;
 }

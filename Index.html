@@ -1,27 +1,67 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>SmolPrints3D</title>
-        <link rel="stylesheet" href="style.css" />
-        </head>
-        <body>
-          <header>
-              <h1>Willkommen bei SmolPrints3D</h1>
-                  <p>Individuelle 3D-Drucke, kreative Ideen und Workshops</p>
-                    </header>
-                      <main>
-                          <h2>Was wir anbieten</h2>
-                              <ul>
-                                    <li>💡 Maßgeschneiderte 3D-Drucke</li>
-                                          <li>🎓 Workshops für Einsteiger & Maker</li>
-                                                <li>🛒 Etsy-Shop mit liebevollen Designs</li>
-                                                    </ul>
-                                                      </main>
-                                                        <footer>
-                                                            <p>&copy; 2025 SmolPrints3D – Hendrik Becker</p>
-                                                              </footer>
-                                                              </body>
-                                                              </html>
-                                                              
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmolPrints3D</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #sidebar {
+      position: fixed;
+      top: 0;
+      right: -250px;
+      width: 250px;
+      height: 100%;
+      background-color: #333;
+      color: white;
+      transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      padding-top: 4rem;
+      z-index: 1000;
+      box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+    }
+
+    #sidebar.open {
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SmolPrints3D</h1>
+    <div class="menu-icon">☰</div>
+  </header>
+<a href="https://www.vecteezy.com/free-videos/backgrounds">Backgrounds Stock Videos by Vecteezy</a>
+  <nav id="sidebar">
+    <ul>
+      <li><a href="#">Startseite</a></li>
+      <li><a href="#">Produkte</a></li>
+      <li><a href="#">Workshops</a></li>
+      <li><a href="#">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <p>Willkommen bei SmolPrints3D!</p>
+  </main>
+
+  <script>
+    const menuIcon = document.querySelector('.menu-icon');
+    const sidebar = document.getElementById('sidebar');
+
+    menuIcon.addEventListener('click', () => {
+      sidebar.classList.toggle('open');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (
+        sidebar.classList.contains('open') &&
+        !sidebar.contains(e.target) &&
+        !menuIcon.contains(e.target)
+      ) {
+        sidebar.classList.remove('open');
+      }
+    });
+  </script>
+</body>
+</html>
