@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SmolPrints3D</title>
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Über mich – SmolPrints3D</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" href="style.css" />
   <style>
     #sidebar {
       position: fixed;
@@ -18,7 +18,7 @@
       transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       padding-top: 4rem;
       z-index: 1000;
-      box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+      box-shadow: -2px 0 8px rgba(0,0,0,0.15);
     }
 
     #sidebar.open {
@@ -27,14 +27,11 @@
   </style>
 </head>
 <body>
-  <video autoplay muted loop playsinline id="bg-video">
-  <source src="bgvideo_cut.mp4" type="video/mp4">
-  Dein Browser unterstützt kein HTML5-Video.
-  </video>
   <header>
     <h1>SmolPrints3D</h1>
     <div class="menu-icon">☰</div>
   </header>
+
   <nav id="sidebar">
     <ul>
       <li><a href="Index.html">Startseite</a></li>
@@ -47,9 +44,15 @@
   </nav>
 
   <main>
-    <p>Willkommen bei SmolPrints3D!</p>
+    <h2>Über mich</h2>
+    <p>Hallo! Ich bin Hendrik Becker, der Kopf hinter <strong>SmolPrints3D</strong>.</p>
+    <p>Seit mehreren Jahren beschäftige ich mich leidenschaftlich mit 3D-Druck, Design und technischen Lösungen im Alltag. Was mit einem einfachen Drucker begann, ist heute ein kreatives Kleingewerbe, bei dem ich funktionale wie auch dekorative Teile gestalte und vertreibe – unter anderem über Etsy und demnächst auch über diese Website.</p>
+    <p>Außerdem gebe ich Workshops zum Thema 3D-Druck, um mein Wissen weiterzugeben und anderen den Einstieg zu erleichtern.</p>
+    <p>Wenn du Fragen hast oder mich für einen Workshop buchen möchtest, schreib mir gerne über das <a href="#">Kontaktformular</a>.</p>
   </main>
-
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="bgvideo_cut.mp4" type="video/mp4">
+        Dein Browser unterstützt kein HTML5-Video. 
   <script>
     const menuIcon = document.querySelector('.menu-icon');
     const sidebar = document.getElementById('sidebar');
@@ -67,6 +70,6 @@
         sidebar.classList.remove('open');
       }
     });
-  </script> 
+  </script>
 </body>
 </html>
