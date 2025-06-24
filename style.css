@@ -49,6 +49,16 @@ body {
                     padding: 1rem 2rem;
                     position: relative;
                   }
+                  .title-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  height: 40px;
+}
+
 #bg-video {
   position: fixed;
   top: 0;
