@@ -1302,6 +1302,7 @@ input, select, textarea {
 			justify-content: center;
 			padding: 0;
 			background: none;
+			z-index: 10;
 		}
 
 		#header .logo img {
