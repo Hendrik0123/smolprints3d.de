@@ -1202,7 +1202,7 @@ input, select, textarea {
 		position: relative;
 		min-height: 100vh;
 		width: 100%;
-		padding: 4rem 2rem;
+		padding: 1rem 2rem;
 		z-index: 3;
 	}
 
@@ -1291,12 +1291,12 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 12rem;
-			height: 12rem;
+			width: 10rem;
+			height: 10rem;
 			line-height: 12rem;
 			border: none;           /* Rahmen entfernen */
 			border-radius: 100%;
-			overflow: hidden;       /* Bild rund beschneiden */
+			overflow: visible;       /* Bild rund beschneiden */
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -1308,7 +1308,7 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			object-fit: contain;   /* Bild vollständig anzeigen, nicht beschneiden */
-			border-radius: 100%;
+			border-radius: 0%;
 			display: block;
 		}
 
@@ -1451,8 +1451,8 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 6rem;
-				height: 6rem;
+				width: 10rem;
+				height: 10rem;
 				line-height: 6rem;
 			}
 
