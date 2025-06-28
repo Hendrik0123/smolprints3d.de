@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "SmolPrints3D",
+  "short_name": "SmolPrints3D",
   "icons": [
     {
       "src": "/images/web-app-manifest-192x192.png",
