@@ -17,7 +17,7 @@
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="3D-Druck & Workshops in Hannover | SmolPrints3D" />
 		<meta property="og:description" content="Zertifizierter 3D-Druck aus Hannover: Workshops, individuelle Modelle & Beratung." />
-		<meta property="og:image" content="https://smolprints3d.de/images/banner_workshops_og.jpg" />
+		<meta property="og:image" content="https://smolprints3d.de/images/banner_workshops.png" />
 		<meta property="og:url" content="https://smolprints3d.de/" />
 		<meta property="og:locale" content="de_DE" />
 		<link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
@@ -36,7 +36,7 @@
 			"description": "3D-Druck seit 2019. Workshops, individuelle Modelle und Beratung rund um additive Fertigung in Hannover und der Region.",
 			"url": "https://smolprints3d.de",
 			"logo": "https://smolprints3d.de/images/logo_square.png",
-			"image": "https://smolprints3d.de/images/banner_workshops_og.jpg",
+			"image": "https://smolprints3d.de/images/banner_workshops.png",
 			"email": "smolprints3d@gmail.com",
 			"founder": {
 				"@type": "Person",
@@ -53,7 +53,8 @@
 			"knowsAbout": ["3D-Druck", "FDM-Druck", "3D-Druck Workshops", "Gridfinity", "Text-to-Model", "VR-Modeling"],
 			"sameAs": [
 				"https://www.instagram.com/smolprints3d/",
-				"https://www.etsy.com/de/shop/SmolPrints3d"
+				"https://www.etsy.com/de/shop/SmolPrints3d",
+				"https://www.ebay.de/str/smolprints3d"
 			]
 			}
 		</script>
@@ -70,7 +71,7 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>SmolPrints3D<br />3D-Druck &amp; Workshops in Hannover</h1>
+								<h1>SmolPrints3D – 3D-Druck &amp; Workshops in Hannover</h1>
 								<h3><strong>3D-Druck mit Leidenschaft seit 2019.<br />
 								Zertifizierte Fachkraft für 3D-Druck (IHK) <br /> individuelle Produkte, Workshops <br />
 								&amp; kreative Lösungen rund ums additive Fertigen <br />
@@ -84,6 +85,8 @@
 								<li><a href="#about"><strong>über mich</strong></a></li>
 								<li><a href="#kontakt"><strong>Kontakt</strong></a></li>
 								<li><a href="#impressum"><strong>Impressum</strong></a></li>
+								
+								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
 					</header>
@@ -108,7 +111,7 @@
 						}
 						</script>
 								<h3 class="major">Workshops</h3>
-								<span class="image main"><img src="images/banner_workshops.webp" alt="3D-Druck Workshop in Hannover bei SmolPrints3D" /></span>
+								<span class="image main"><img src="images/banner_workshops.png" alt="3D-Druck Workshop in Hannover bei SmolPrints3D" /></span>
 								<p><strong>3D-Druck erlebbar machen – praxisnah, verständlich, individuell.</strong></p>
 
 								<p>Seit mehreren Jahren gebe ich erfolgreich Workshops rund um das Thema 3D-Druck – unter anderem für den Stadtjugendring (SJR) Hannover, die Volkshochschule Hannover und die Stadtbibliothek Hannover.</p>
@@ -143,10 +146,10 @@
 						<!-- Produkte -->
 							<article id="produkte">
 								<h3 class="major">Produkte</h3>
-								<span class="image main"><img src="images/banner_produkte.webp" alt="3D-gedruckte Produkte und individuelle Modelle von SmolPrints3D" /></span>
+								<span class="image main"><img src="images/banner_produkte.png" alt="3D-gedruckte Produkte und individuelle Modelle von SmolPrints3D" /></span>
 								<p>Hier sehen Sie eine Auswahl meiner 3D-gedruckten Designs.<br>
 								Individuelle Anfertigungen sind auf Anfrage möglich.
-								<p>Besuchen Sie gerne meinen Shop auf <a href="https://www.etsy.com/de/shop/SmolPrints3d">Etsy</a>!</p>
+								<p>Besuchen Sie gerne meinen Shop auf <a href="https://www.etsy.com/de/shop/SmolPrints3d">Etsy</a> oder <a href="https://www.ebay.de/str/smolprints3d">Ebay</a>!</p>
 								<ul class="actions">
 									<li><a href="#kontakt" class="button primary">Individuelle Anfertigung anfragen &rarr;</a></li>
 								</ul>
@@ -156,14 +159,14 @@
 <article id="about">
     <h3 class="major">Über mich</h3>
     <div class="about-flex">
-        <span class="image side"><img src="images/portait.webp" alt="Hendrik Becker, IHK-zertifizierte Fachkraft für 3D-Druck aus Hannover" /></span>
+        <span class="image side"><img src="images/portait.jpg" alt="Hendrik Becker, IHK-zertifizierte Fachkraft für 3D-Druck aus Hannover" /></span>
         <div>
             <p>Hallo! Ich bin <strong>Hendrik Becker</strong>, der Kopf hinter <strong>SmolPrints3D</strong>.</p>
             <p>Ich bin <strong>staatlich anerkannter Sozialarbeiter / Sozialpädagoge</strong> mit einer zusätzlichen 
             <strong>zertifizierten Qualifikation als Fachkraft für 3D-Drucktechnologie (IHK, 2020)</strong>. <br/>
             Seit 2019 beschäftige ich mich mit 3D-Druck, Design und technischen Lösungen für den Alltag.</p>
             <p>Was mit einem einfachen Drucker begann, ist heute ein kreatives Kleingewerbe. 
-            Ich entwerfe und fertige sowohl funktionale als auch dekorative Objekte und verkaufe diese über <strong>Etsy</strong>.</p>
+            Ich entwerfe und fertige sowohl funktionale als auch dekorative Objekte und verkaufe diese über <strong>Etsy</strong> und <strong>Ebay</strong>.</p>
             <p>Darüber hinaus gebe ich regelmäßig <strong>Workshops zum Thema 3D-Druck</strong>, 
             um mein Wissen weiterzugeben und anderen den Einstieg in diese spannende Technologie zu erleichtern.</p>
             <p>Wenn Sie Fragen haben oder mich für einen Workshop buchen möchten, schreiben Sie mir gerne über das <a href="#kontakt">Kontaktformular</a>.</p>
@@ -199,6 +202,8 @@
 									<li><a href="https://www.instagram.com/smolprints3d/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="https://www.etsy.com/de/shop/SmolPrints3d" class="icon brands fa-etsy"><span
 									class="label">Etsy</span></a></li>
+									<li><a href="https://www.ebay.de/str/smolprints3d" class="icon brands fa-ebay"><span 
+									class="label">Ebay</span></a></li>
 								</ul>
 							</article>
 
